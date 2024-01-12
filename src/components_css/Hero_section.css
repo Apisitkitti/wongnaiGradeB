@@ -1,0 +1,24 @@
+.hero_section {
+  padding: 20px 0 10px 182px;
+  background-color: white;
+}
+
+.navigation_label,
+#slash_in_hero_section,
+#search_res_label {
+  font-size: 20px;
+}
+
+.navigation_label,
+#slash_in_hero_section {
+  color: rgb(156, 155, 155);
+  padding-right: 10px;
+}
+
+.hero_section_label {
+  margin-bottom: 1px;
+}
+
+.navigation_label:hover {
+  text-decoration: underline;
+}
