@@ -1,10 +1,11 @@
 import "../components_css/Sidebar.css";
+import "../components_css/BodySetting.css";
 
 export default function Sidebar() {
   return (
-    <aside>
-      <div className="sidebar_container">
-        <div className="shop_type_container">
+    <aside className="body_contain">
+      <div className="sidebar_container ">
+        <div className="shop_type container">
           <label className="label_in_sidebar">
             <input type="radio" name="restuarant" id="shop_type_1" />
             ร้านอาหาร
@@ -26,7 +27,7 @@ export default function Sidebar() {
           </label >
         </div>
         <hr />
-        <div className="rating_container">
+        <div className="rating container">
           <label className="label_in_sidebar">
             <h2>เรตติ้ง</h2>
             <input type="radio" name="3.5+" id="rating_1" />
@@ -39,13 +40,13 @@ export default function Sidebar() {
           </label>
         </div>
         <hr />
-        <div className="length_container">
-          <h2 className="length_label">ค้นหาตามระยะห่างจาก</h2>
+        <div className="length container">
+          <h2 className="length label">ค้นหาตามระยะห่างจาก</h2>
           <input type="text" name="location" id="location_input" placeholder="เช่น วัดพระแก้ว" />
           <input type="text" name="distance" id="distance_input" placeholder="1 กม." />
         </div>
         <hr />
-        <div className="food_category_container">
+        <div className="food_category container">
           <h2 className="food_category_label">ประเภทอาหาร</h2>
           <label>
             <input type="checkbox" name="up_to_you_food" id="up_to_you_food_input" />
@@ -71,10 +72,10 @@ export default function Sidebar() {
             <input type="checkbox" name="bakery" id="bakery_input" />
             เบเกอรี่เค้ก
           </label>
-          <p className="more_item_label">ดูเพิ่มเติม (18 ประเภท)</p>
+          <a href="#" className="more_item_label">ดูเพิ่มเติม (18 ประเภท)</a>
         </div>
         <hr />
-        <div className="discount_container">
+        <div className="discount container">
           <label>
             <input type="checkbox" name="wongnai" id="wongnai_input" />
             Wongnai
@@ -96,7 +97,8 @@ export default function Sidebar() {
             Shell ClubSmart
           </label>
         </div>
-        <div className="price">
+        <hr />
+        <div className="price container">
           <label>
             <input type="checkbox" name="price_less_than_100" id="price_input" />
             ฿ ถูกกว่า 100
@@ -119,7 +121,7 @@ export default function Sidebar() {
           </label>
         </div>
         <hr />
-        <div className="restaurant_condition_container">
+        <div className="restaurant_condition container">
           <label>
             <input type="checkbox" name="best_deal" id="best_deal_input" />
             ดีลสุดคุ้ม
@@ -142,7 +144,7 @@ export default function Sidebar() {
           </label>
           <a href="#">ดูเพิ่มเติม</a>
         </div>
-        <hr />
+
       </div>
     </aside>
   );

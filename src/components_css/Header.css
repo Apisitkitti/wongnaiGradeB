@@ -1,6 +1,5 @@
 .header_container {
   display: flex;
-  margin-top: 10px;
   position: relative;
   /* flex: 268px auto auto 268px; */
   justify-content: center;
