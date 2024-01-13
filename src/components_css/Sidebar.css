@@ -21,6 +21,7 @@
 input[type=text] {
   padding-left: 10px;
   margin-bottom: 7px;
+  font-size: 20px;
   height: 40px;
   width: 177;
   border: 1px solid rgb(216, 215, 215);
@@ -28,8 +29,27 @@ input[type=text] {
 
 }
 
-input[type=checkbox] {
-  padding-right: 20px;
+.label_in_sidebar {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 8px;
+  color: rgb(132, 131, 131);
+
+}
+
+.length {
+  margin-bottom: 19px;
+}
+
+.length img {
+  margin-top: -32px;
+  margin-left: 155px;
+  opacity: 50%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  color: rgb(197, 197, 197);
 }
 
 hr {
