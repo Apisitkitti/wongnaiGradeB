@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-input[type=text] {
+.sidebar_container input[type=text] {
   padding-left: 10px;
   margin-bottom: 7px;
   font-size: 20px;
@@ -38,7 +38,7 @@ input[type=text] {
 }
 
 .length {
-  margin-bottom: 19px;
+  margin-bottom: px;
 }
 
 .length img {
