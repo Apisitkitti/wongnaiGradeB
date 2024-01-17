@@ -1,6 +1,7 @@
 .hero_section {
   padding: 20px 0 10px 271px;
   background-color: white;
+  width: 100vw;
 }
 
 .navigation_label,
