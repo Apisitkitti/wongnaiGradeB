@@ -28,3 +28,8 @@ input[type=text]:focus {
 body {
   background-color: #EDF0F2;
 }
+
+.body_contain {
+  display: grid;
+  grid-template-columns: 265px auto auto auto 265px;
+}

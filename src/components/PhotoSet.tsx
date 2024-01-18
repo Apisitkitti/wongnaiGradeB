@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 export default function PhotoSet({ photoLabel, photoUrl, pictureNotIsNotLoad }: { photoLabel: string, photoUrl: string, pictureNotIsNotLoad: string }) {
   return (
     <main>

@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/Hero_section";
-import PicFrame from "./components/PhotoSlideFrame";
-import Sidebar from "./components/Sidebar";
+
+import Sidebar from "./components/Content";
 import "./components_css/Setting.css";
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <HeroSection />
       <Sidebar />
-      <PicFrame />
+
     </body>
   );
 }

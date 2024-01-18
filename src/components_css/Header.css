@@ -1,20 +1,19 @@
 .header_container {
   display: flex;
   position: relative;
-  /* flex: 268px auto auto 268px; */
   justify-content: center;
   height: 80px;
   background-color: white;
   border-bottom: 1px solid #efecec;
   align-items: center;
   width: 100vw;
+  margin-left: 50px;
 }
 
 .header_left img {
   width: 118px;
   margin-top: 10px;
   margin-right: 47px;
-  margin-left: -40px;
 
   &:hover {
     cursor: pointer;

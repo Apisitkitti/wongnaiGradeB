@@ -1,3 +1,38 @@
-.config_Pic {}
+.all_pic_container {
+  border: 2px solid #E9ECEE;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 913px;
+  height: 136px;
+  background-color: white;
+  grid-column: 3 span / 2;
+}
 
-.pic_label {}
+.picture_container {
+  padding: 0 1px;
+  position: relative;
+  width: 175px;
+  height: 100px;
+}
+
+.config_Pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: brightness(80%);
+  z-index: 1;
+}
+
+.pic_label {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  z-index: 2;
+}

@@ -1,9 +1,8 @@
+import PicFrame from "./PhotoSlideFrame";
 import "../components_css/Sidebar.css";
-import "../components_css/BodySetting.css";
-
-export default function Sidebar() {
+export default function Content() {
   return (
-    <aside className="body_contain">
+    <div className="body_contain">
       <div className="sidebar_container ">
         <div className="shop_type container">
           <label>
@@ -145,8 +144,8 @@ export default function Sidebar() {
           </label>
           <a href="#">ดูเพิ่มเติม</a>
         </div>
-
       </div>
-    </aside>
+      <PicFrame />
+    </div>
   );
 }

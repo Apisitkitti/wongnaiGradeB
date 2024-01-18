@@ -9,7 +9,7 @@ export default function HeroSection() {
         <span id='slash_in_hero_section'>/</span>
         <span id='search_res_label'>ค้นหาร้านอาหาร</span>
       </p>
-      <h1>ร้านอาหารยอดนิยม จัดอันดับ ทั่วประเทศไทย</h1>
+      <h1>ร้านอาหารยอดนิยม</h1>
     </div>
-  );
+  )
 }
