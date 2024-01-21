@@ -1,8 +1,12 @@
 .hero_section {
-  padding: 20px 0 10px 271px;
+  display: grid;
+  grid-template-columns: 181px auto auto auto 181px;
+  position: relative;
+  grid-column: 1 / span 5;
   background-color: white;
-  width: 100vw;
+  height: 104px;
   margin-bottom: 23px;
+  padding: 24px 0;
 }
 
 .navigation_label,
@@ -23,4 +27,8 @@
 
 .navigation_label:hover {
   text-decoration: underline;
+}
+
+.text_container {
+  grid-column: 2;
 }

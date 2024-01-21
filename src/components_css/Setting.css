@@ -31,5 +31,5 @@ body {
 
 .body_contain {
   display: grid;
-  grid-template-columns: 265px auto auto auto 265px;
+  grid-template-columns: 181px auto auto auto 181px;
 }

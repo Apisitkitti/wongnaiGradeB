@@ -41,7 +41,7 @@ export default function NavSidebar() {
         <h2 className="length label">ค้นหาตามระยะห่างจาก</h2>
         <input type="text" name="location" id="location_input" placeholder="เช่น วัดพระแก้ว" />
         <input type="text" name="distance" id="distance_input" placeholder="1 กม." />
-        <img src="../dropdown_icon.png" alt="dropdown_icon" width="12px" />
+        <img src="../img/dropdown_icon.png" alt="dropdown_icon" width="12px" />
       </div>
       <hr />
       <div className="food_category container">
